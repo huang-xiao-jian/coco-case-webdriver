@@ -8,9 +8,9 @@
   },
   "scripts": {
     "precommit": "pretty-quick --staged",
-    "prepush": "npm test",
     "test": "jest --coverage",
-    "test:cov": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:e2e": "wdio wdio.conf.js"
   },
   "files": [
     "lib"
