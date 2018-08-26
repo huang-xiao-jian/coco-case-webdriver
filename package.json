@@ -1,15 +1,12 @@
 {
   "name": "@coco-case/webdriverio",
   "version": "0.2.0",
-  "description": "A universal seed for nodejs usage.",
-  "main": "lib/index.js",
+  "description": "coco webdriver.io e2e case.",
   "engines": {
     "node": ">=8.0.0"
   },
   "scripts": {
     "precommit": "pretty-quick --staged",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch",
     "test:e2e": "wdio wdio.conf.js"
   },
   "files": [
