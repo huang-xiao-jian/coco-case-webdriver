@@ -14,7 +14,7 @@ describe('redux todo list', () => {
     // create todo item
     browser.element('.new-todo').setValue('just say hello world!');
     browser.keys('Enter');
-    browser.element('.new-todo').setValue('just prepare the marrige!');
+    browser.element('.new-todo').setValue('just prepare the marriage!');
     browser.keys('Enter');
     browser.element('.new-todo').setValue('just fight with the boring!');
     browser.keys('Enter');
